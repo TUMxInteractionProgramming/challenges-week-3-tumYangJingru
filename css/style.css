@@ -41,8 +41,10 @@ ul {
     background-color: white;
     /* #3 #channels #bullets removed */
     list-style-type: none;
-}
+    overflow: auto;
 
+    
+} 
 li {
     /* #4 #channel #tile geometry */
     box-sizing: border-box;
@@ -141,5 +143,31 @@ li img {
 /* #4 left align own #messages using #margins */
 .message.own {
     margin-left: 17.5%;
+}
+
+#chanels{
+width:40%;
+
+}
+#chat{
+position: absolute;
+top:3%;
+left:40%
+}
+#app-bar{
+    height: 100;
+    font-weight: 100;
+    font-size: 50;
+    
+}
+#tab-bar{
+position: absolute;
+bottom:0;   
+display: flex;
+width: 40%;
+}
+#butt{
+    position:absolute;
+
 }
 
